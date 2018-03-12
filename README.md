@@ -1,4 +1,5 @@
 # Tenable.io python scripts
+
 Python scripts to create and update Tennable.io Target groups; find target group from IP
 
 Pre-requisite:
@@ -12,4 +13,4 @@ Environment: Linux, OSX
 
 Fill out settings.ini before running the python scripts
 
-Assumption in Update_Target_Group_AWS.py: Target groups have the group name 'AWS <profile_name' where the profile name is taken from ~/.aws/credentials
+Assumption in Update_Target_Group_AWS.py: Target groups have the group name 'AWS profile_name' where the profile name is taken from ~/.aws/credentials
