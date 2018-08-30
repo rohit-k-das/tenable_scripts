@@ -38,7 +38,7 @@ def sanitize_ip(ip):
 	return True
 
 def main():
-	targets = raw_input("Enter IPs (Eg: 125.23.56.34,56.45.254.254): ')
+	targets = raw_input("Enter IPs (Eg: 125.23.56.34,56.45.254.254): ")
 	targets = targets.split(',')    
 	headers = {'X-ApiKeys':'accessKey=' + Tenable_Client_Id + '; secretKey=' + Tenable_Secret_Id,'Content-Type':'application/json'}
 	r = requests.get("https://cloud.tenable.com/target-groups",headers=headers)
